@@ -4,7 +4,7 @@ class Conexion {
         $host = "localhost";
         $dbname = "notas_db";
         $usuario = "root";
-        $password = ""; // coloca tu contraseña aquí si tienes
+        $password = "";
 
         try {
             $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $usuario, $password);
